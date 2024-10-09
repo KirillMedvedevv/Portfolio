@@ -1,0 +1,12 @@
+0.35 #L
+0.002 #d
+20 #T0
+80 #Tm
+40 #lambda
+65 #a
+2800000 #sig0
+0.01 #kt
+1 #logic: 1 - MPD is ON(requires Tm, a1, b1); 0 - MPD is OFF (requires phim)
+0.6 #a1
+0.9 #b1
+0.702745 #phim
