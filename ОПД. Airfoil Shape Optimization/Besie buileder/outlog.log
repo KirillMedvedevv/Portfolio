@@ -1,0 +1,283 @@
+
+ ===================================================
+  XFOIL Version 6.99
+  Copyright (C) 2000   Mark Drela, Harold Youngren
+
+  This software comes with ABSOLUTELY NO WARRANTY,
+    subject to the GNU General Public License.
+
+  Caveat computor
+ ===================================================
+
+ File  xfoil.def  not found
+
+   QUIT    Exit program
+
+  .OPER    Direct operating point(s)
+  .MDES    Complex mapping design routine
+  .QDES    Surface speed design routine
+  .GDES    Geometry design routine
+
+   SAVE f  Write airfoil to labeled coordinate file
+   PSAV f  Write airfoil to plain coordinate file
+   ISAV f  Write airfoil to ISES coordinate file
+   MSAV f  Write airfoil to MSES coordinate file
+   REVE    Reverse written-airfoil node ordering
+
+   LOAD f  Read buffer airfoil from coordinate file
+   NACA i  Set NACA 4,5-digit airfoil and buffer airfoil
+   INTE    Set buffer airfoil by interpolating two airfoils
+   NORM    Buffer airfoil normalization toggle
+   XYCM rr Change CM reference location, currently  0.25000 0.00000
+
+   BEND    Display structural properties of current airfoil
+
+   PCOP    Set current-airfoil panel nodes directly from buffer airfoil points
+   PANE    Set current-airfoil panel nodes ( 160 ) based on curvature
+  .PPAR    Show/change paneling
+
+  .PLOP    Plotting options
+
+   WDEF f  Write  current-settings file
+   RDEF f  Reread current-settings file
+   NAME s  Specify new airfoil name
+   NINC    Increment name version number
+
+   Z       Zoom    | (available in all menus)
+   U       Unzoom  | 
+
+ XFOIL   c>  
+ Plain airfoil file
+
+Enter airfoil name   s>  
+ Number of input coordinate points: 102
+ Clockwise ordering
+ Max thickness =     0.140613  at x =   0.423
+ Max camber    =     0.044767  at x =   0.423
+
+  LE  x,y  =   0.00000  -0.00004  |   Chord =   0.99898
+  TE  x,y  =   0.99898   0.00204  |
+
+ Current airfoil nodes set from buffer airfoil nodes ( 102 )
+
+ XFOIL   c>  
+    Present paneling parameters...
+  N  i   Number of panel nodes       160
+  P  r   Panel bunching parameter    1.000
+  T  r   TE/LE panel density ratio   0.150
+  R  r   Refined area/LE  panel density ratio   0.200
+  XT rr  Top    side refined area x/c limits    1.000 1.000
+  XB rr  Bottom side refined area x/c limits    1.000 1.000
+  Z oom
+  U nzoom
+
+Change what ? (<cr> if nothing else)   c>  
+Enter number of panel nodes   i>  
+Change what ? (<cr> if nothing else)   c>  
+ Blunt trailing edge.  Gap =  0.00797
+
+ Maximum panel corner angle =  9.800   at  i,x,y  =   3   0.9964   0.0102
+
+    Present paneling parameters...
+  N  i   Number of panel nodes       400
+  P  r   Panel bunching parameter    1.000
+  T  r   TE/LE panel density ratio   0.150
+  R  r   Refined area/LE  panel density ratio   0.200
+  XT rr  Top    side refined area x/c limits    1.000 1.000
+  XB rr  Bottom side refined area x/c limits    1.000 1.000
+  Z oom
+  U nzoom
+
+Change what ? (<cr> if nothing else)   c>  
+ XFOIL   c>   ...............................................
+
+  G raphics-enable flag:        T
+  S ize of plot object          10.00"
+  A spect ratio of plot object   0.5500
+  P age dimensions              11.00 x  8.50"
+  M argins from page edges       0.00",  0.00"
+  F ont size (relative)          0.0150
+  W indow/screen size fraction   0.8000
+  B lowup input method:        Cursor    
+  O rientation of plot:        Landscape 
+  C olor PostScript output?     F
+
+      Option, Value   (or <Return>)    c>   ...............................................
+
+  G raphics-enable flag:        F
+  S ize of plot object          10.00"
+  A spect ratio of plot object   0.5500
+  P age dimensions              11.00 x  8.50"
+  M argins from page edges       0.00",  0.00"
+  F ont size (relative)          0.0150
+  W indow/screen size fraction   0.8000
+  B lowup input method:        Cursor    
+  O rientation of plot:        Landscape 
+  C olor PostScript output?     F
+
+      Option, Value   (or <Return>)    c>  
+ XFOIL   c>  
+ XFOIL   c>  
+.OPERi   c>  
+ Currently...
+
+ Re =         0
+
+Enter new Reynolds number   r>  
+.OPERi   c>  
+ M  =    0.0000
+ Re =   1000000
+
+.OPERv   c>   Current iteration limit:          10
+
+Enter new iteration limit   i>  
+.OPERv   c>  
+ Polar  1 newly created for accumulation
+ Airfoil archived with polar: test                                            
+
+Enter  polar save filename  OR  <return> for no file   s>  
+ New polar save file available
+
+Enter  polar dump filename  OR  <return> for no file   s>  
+ Polar dump file will NOT be written
+
+ Polar accumulation enabled
+
+.OPERva   c>  
+Enter angle of attack (deg)   r>   Calculating unit vorticity distributions ...
+ Calculating wake trajectory ...
+ Array size (IWX) too small.  Last wake point index reduced.
+ Calculating source influence matrix ...
+
+ Solving BL system ...
+
+ Initializing BL ...
+    side            1  ...
+ MRCHUE: Inverse mode at 139     Hk =   4.006
+ MRCHUE: Inverse mode at 140     Hk =   4.410
+ MRCHUE: Inverse mode at 141     Hk =   4.811
+ MRCHUE: Inverse mode at 142     Hk =   5.210
+ MRCHUE: Inverse mode at 143     Hk =   5.606
+ MRCHUE: Inverse mode at 144     Hk =   6.001
+ MRCHUE: Inverse mode at 145     Hk =   6.394
+ MRCHUE: Inverse mode at 146     Hk =   6.786
+ MRCHUE: Inverse mode at 147     Hk =   7.178
+ MRCHUE: Inverse mode at 148     Hk =   7.568
+ MRCHUE: Inverse mode at 149     Hk =   7.959
+ MRCHUE: Inverse mode at 150     Hk =   6.850
+ MRCHUE: Inverse mode at 151     Hk =   5.308
+ MRCHUE: Inverse mode at 152     Hk =   4.175
+ MRCHUE: Inverse mode at 153     Hk =   3.289
+ MRCHUE: Convergence failed at 211  side 1    Res =  0.1029E+02
+ MRCHUE: Convergence failed at 212  side 1    Res =  0.7853E+01
+    side            2  ...
+ MRCHUE: Inverse mode at 154     Hk =   3.847
+ MRCHUE: Inverse mode at 155     Hk =   4.148
+ MRCHUE: Inverse mode at 156     Hk =   4.447
+ MRCHUE: Inverse mode at 157     Hk =   4.744
+ MRCHUE: Inverse mode at 158     Hk =   5.039
+ MRCHUE: Inverse mode at 159     Hk =   5.334
+ MRCHUE: Inverse mode at 160     Hk =   5.627
+ MRCHUE: Inverse mode at 161     Hk =   5.919
+ MRCHUE: Inverse mode at 162     Hk =   6.210
+ MRCHUE: Inverse mode at 163     Hk =   4.787
+ MRCHUE: Inverse mode at 164     Hk =   3.647
+ MRCHUE: Inverse mode at 165     Hk =   2.738
+ MRCHUE: Inverse mode at 190     Hk =   2.500
+ MRCHUE: Inverse mode at 192     Hk =   2.039
+ MRCHUE: Inverse mode at 193     Hk =   2.028
+
+ MRCHDU: Convergence failed at 211  side 1    Res =  0.1062E+01
+ MRCHDU: Convergence failed at 212  side 1    Res =  0.1355E+02
+ Side 1  free  transition at x/c =  0.6617  150
+ Side 2  free  transition at x/c =  0.8423  163
+ idif Ue xi dudx           1  8.12266618E-02  7.62939453E-04   106.46541    
+ Uenew xinew           2  1.49761653E-03  1.40666962E-05
+
+   1   rms: 0.2688E+00   max: 0.1220E+01   D at  197  2   RLX: 0.436
+       a =  0.000      CL =  0.6701
+      Cm = -0.1580     CD =  0.00331   =>   CDf =  0.00511    CDp = -0.00180
+
+ Side 1  free  transition at x/c =  0.6715  150
+ Side 2  free  transition at x/c =  0.8470  164
+
+   2   rms: 0.4643E+01   max: 0.1249E+03   D at    2  2   RLX: 0.009
+       a =  0.000      CL =  0.6692
+      Cm = -0.1579     CD =  0.00381   =>   CDf =  0.00492    CDp = -0.00111
+
+ Side 1  free  transition at x/c =  0.6717  150
+ Side 2  free  transition at x/c =  0.8471  164
+ idif Ue xi dudx           1  3.00081577E-02  1.07491016E-03   27.916899    
+ Uenew xinew           2  9.27167851E-03  3.32117081E-04
+
+   3   rms: 0.1882E+00   max: -.1084E+01   D at    3  2   RLX: 0.461
+       a =  0.000      CL =  0.6242
+      Cm = -0.1467     CD =  0.00475   =>   CDf =  0.00493    CDp = -0.00018
+
+ MRCHDU: Convergence failed at 151  side 1    Res =  0.2279E+01
+ MRCHDU: Convergence failed at 167  side 2    Res =  0.1473E+01
+ Side 1  free  transition at x/c =  0.6865  152
+ Side 2  free  transition at x/c =  0.8578  167
+
+   4   rms: 0.2643E+00   max: -.5151E+01   D at    2  2   RLX: 0.097
+       a =  0.000      CL =  0.6157
+      Cm = -0.1445     CD =  0.00426   =>   CDf =  0.00444    CDp = -0.00018
+
+ Side 1  free  transition at x/c =  0.6878  152
+ Side 2  free  transition at x/c =  0.8554  166
+ idif Ue xi dudx           1  6.69419393E-02  7.82847404E-04   85.510841    
+ Uenew xinew           2  4.10805549E-03  4.80413437E-05
+
+   5   rms: 0.1312E+00   max: 0.1289E+01   D at    3  2   RLX: 0.390
+       a =  0.000      CL =  0.5857
+      Cm = -0.1371     CD =  0.00473   =>   CDf =  0.00439    CDp =  0.00033
+
+ Side 1  free  transition at x/c =  0.6908  151
+ Side 2  free  transition at x/c =  0.8417  165
+
+   6   rms: 0.1422E+00   max: -.3285E+01   T at    2  2   RLX: 0.152
+       a =  0.000      CL =  0.5779
+      Cm = -0.1350     CD =  0.00530   =>   CDf =  0.00447    CDp =  0.00083
+
+ Side 1  free  transition at x/c =  0.6932  152
+ Side 2  free  transition at x/c =  0.8372  165
+
+   7   rms: 0.7922E-01   max: -.5854E+00   C at  152  1   RLX: 0.854
+       a =  0.000      CL =  0.5365
+      Cm = -0.1249     CD =  0.00574   =>   CDf =  0.00439    CDp =  0.00135
+
+ Side 1  free  transition at x/c =  0.7034  153
+ Side 2  free  transition at x/c =  0.7786  156
+
+   8   rms: 0.1599E-01   max: -.1985E+00   C at  156  2
+       a =  0.000      CL =  0.5346
+      Cm = -0.1245     CD =  0.00620   =>   CDf =  0.00446    CDp =  0.00174
+
+ Side 1  free  transition at x/c =  0.7078  154
+ Side 2  free  transition at x/c =  0.7819  157
+
+   9   rms: 0.8701E-02   max: 0.1770E+00   C at  154  1
+       a =  0.000      CL =  0.5345
+      Cm = -0.1245     CD =  0.00618   =>   CDf =  0.00432    CDp =  0.00186
+
+ Side 1  free  transition at x/c =  0.7059  154
+ Side 2  free  transition at x/c =  0.7812  157
+
+  10   rms: 0.1455E-02   max: -.2328E-01   C at  157  2
+       a =  0.000      CL =  0.5348
+      Cm = -0.1246     CD =  0.00618   =>   CDf =  0.00435    CDp =  0.00183
+
+ Side 1  free  transition at x/c =  0.7056  154
+ Side 2  free  transition at x/c =  0.7818  157
+
+  11   rms: 0.8855E-04   max: -.1919E-02   C at  157  2
+       a =  0.000      CL =  0.5348
+      Cm = -0.1246     CD =  0.00618   =>   CDf =  0.00435    CDp =  0.00183
+ plradd ia,ip,cpol            1         208  0.35827425    
+
+ Point added to stored polar  1
+ Point written to save file  result.txt                                      
+ Dump file unspecified or not available
+
+.OPERva   c>  
+ XFOIL   c>  

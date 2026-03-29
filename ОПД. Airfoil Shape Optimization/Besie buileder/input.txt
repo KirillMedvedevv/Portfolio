@@ -1,0 +1,24 @@
+load airfoil.txt
+test
+ppar
+n
+400
+
+
+plop
+g
+
+
+OPER
+RE
+1000000
+VISC
+ITER
+1000
+PACC
+result.txt
+
+A 
+0
+
+quit
